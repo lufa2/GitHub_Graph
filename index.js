@@ -5,7 +5,7 @@ const moment = require("moment");
 const random = require("random");
 
 // Change the working directory to where your local repository is located
-const git = simpleGit(".");
+const git = simpleGit("workspaces/GitHub-graph");
 
 const makeCommit = (n) => {
   if (n === 0) {
